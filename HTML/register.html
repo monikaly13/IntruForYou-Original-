@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registar</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/notification_box.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/signup.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<script src="../JS/register.js"></script>
+<body onload="setAdmin();"> 
+  <div class="content">
+    <h1><a href="../HTML/index.html">IntruForYou</a></h1>
+    <p>Connect your music taste with us. Build your skill. <br> Authentic intrument with quality and better price. 
+    Join Now!</p>
+  </div>
+    <form action="#" style="border:1px solid #ccc" onsubmit="register(); return false;" id="signupform">
+      <div class="container">
+        <h1 style="color: rgb(43, 43, 168);">Sign Up</h1>
+        <p style="font-weight: 900;">Please fill in this form to create an account.</p>
+        <hr>
+    
+        <label for="email" style="color: rgb(43, 43, 168);"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw" style="color: rgb(43, 43, 168);"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <label for="psw-repeat" style="color: rgb(43, 43, 168);"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label style="font-weight: 900;"> 
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;"> Remember me
+        </label>
+        <p style="font-weight: 900;">Already have an account?<a href="../HTML/login.html" style="color: darkblue; font-weight: 600; font-size: 20px;"> Login</a></p>
+        <p style="font-weight: 900;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn"><a href="../HTML/index.html" style="color: white;">Cancel</a></button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+</body>  
+</html>

@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding-top: 0;
+}
+.banner {
+  margin-bottom: -700px;  
+}
+.navbar {
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    width: 80px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    transition: 0.5s;
+    left: 0;
+    bottom: -10px;
+}
+.navbar ul li :hover::after{
+    width: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    }
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  .dropbtn{
+    border: none;
+  }
+  .banner{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: -100px;
+    width: 100%;
+    height: 50px;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgba(4,9,30,0.7 );
+  }
+  header .sticky {
+    background: black;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+.about1 {
+    background-size: 100%;
+    overflow: hidden;
+}
+.intoabout p{
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+    word-spacing: 5px;
+}
+.intoabout h1{
+    margin-top: 100px;
+    font-weight: 700;
+    margin-left: 400px;
+    margin-right: 400px;
+    word-spacing: 5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.aboutus{
+    font-family:Maiandra GD;
+}
+.text1 {
+    font-size: 15px;
+    color: #131212;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+    .div{
+        opacity: 50%;
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        box-shadow: 3px gray;
+        background-color:  blue(255, 255, 255);
+        justify-content: center;
+    }
+    .text{
+        text-shadow: 3px 3px 5px black;
+        color: white;
+        margin-top: 180px;
+        display: block;
+        position: relative;
+        box-shadow: 2px;
+        border: blue ;
+        font-family: 'Rubik', sans-serif;
+    }  
+    .content{
+        box-sizing: inherit;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title{
+        text-align: center;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        font-family:Maiandra GD;
+        display: grid;
+    }
+    .History{
+        margin-top: 10vh;
+        display:flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .P1 img{
+        border-radius: 20px;
+        border:3px solid rgba(166, 178, 179, 0.856);
+        display: block;
+        margin-bottom: 40px;
+        margin: 20px;
+    }
+
+    .P1 p{
+        text-align: justify;
+    }
+    #Chhengly{
+        text-align: center; 
+        font-family: CF Oak Island PERSONEL;
+    }
+    #Chhengly div a:hover{
+        color: rgb(27, 224, 1);
+        transition: 0.5s;
+    }
+    #Run{
+        text-align: center;
+        font-family: CF Oak Island PERSONEL;
+    }
+    #Run div a:hover{
+        color: rgb(107, 2, 245);
+        transition: 0.5s;
+    }
+    #Dalis{
+        text-align: center;
+        font-family: CF Oak Island PERSONEL;
+    }
+    #Dalis div a:hover{
+        color: rgb(248, 0, 174);
+        transition: 0.5s;
+    }
+    #Monika{
+        text-align: center;
+        font-family: CF Oak Island PERSONEL;   
+    }
+    #Monika div a:hover{
+        color: rgb(255, 0, 0);
+        transition: 0.5s;
+    }
+    .p2{
+        text-decoration: bold;
+        font-size: 25px;
+        margin-bottom: 5px;
+        font-family: cursive;
+        color: steelblue;
+    }
+    .p2:hover{
+        text-decoration: underline;   
+    }
+    h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10;
+        color: rgb(247, 129, 109);
+    }
+    p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .flip-card-back  div{
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        background-color: rgb(253, 214, 162);
+    }
+    .flip-card-back {
+          border-radius: 15px;
+        color: white;
+      }
+
+      #Chhengly div,#Run div,#Monika div,#Dalis div {
+        visibility: hidden;
+          background-color:  rgba(236, 164, 8, 0.897);
+          opacity: 0;
+          padding:3px;
+          transition: visibility 0s, opacity 0.5s linear;
+        }
+        #Chhengly:hover div,#Run:hover div,#Monika:hover div,#Dalis:hover div{
+          opacity: 1;
+          visibility: visible;
+
+      }
+      #Chhengly, #Run, #Monika, #Dalis{
+          background-repeat: no-repeat;  
+          background-size: 350px 350px;
+          margin: 15px;
+          padding: 12px;
+
+      }
+      #Chhengly{
+          background-image: url('../image/chhenglee.jpg');
+        }
+        #Run{
+          background-image: url('../image/runPic.jpg');
+
+
+      }
+      #Monika{
+          background-image: url('../image/monikaPic.jpg');
+
+        }
+        #Dalis{
+          background-image: url('../image/DalisPic.jpg');
+        }
+
+        .footer{
+            margin-top: 30px;
+            height: 20vh;
+            width: 100%;
+          display: flex;
+          transition:1s ;
+          align-items: center ;
+          justify-content: center;
+          background-color:rgba(4,9,30,0.7);
+        }  
+        #textfooter{
+          vertical-align: baseline;
+          text-align: center;
+            font-size: 20px;
+            text-shadow:(4,9,30,0.7);
+        }
+        .footer:hover{
+            color: white;
+            background-color:(4,9,30,0.7);
+            transition:1s ;
+        }

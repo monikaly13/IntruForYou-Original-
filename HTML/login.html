@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="../JS/register.js"></script>
+  <link rel="stylesheet" href="../CSS/login.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="content">
+    <h1><a href="../HTML/index.html">IntruForYou</a></h1>
+    <p>Are you ready to get in? Hop on,<br>
+    Welcome back!</p>
+    <form action="#" onsubmit="login(); return false;" id="loginForm">
+      <h2>Login Form</h2>
+      <div class="container">
+        <label for="email"><b>Email:</b></label>
+        <input type="email" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password:</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#ffffff">
+        <button type="button" class="cancelbtn"><a style="color: white;" href="../HTML/index.html">Cancel</a></button>
+        <span class="psw"><a style="color: red;" href="../HTML/reset_password.html">Reset password?</a></span>
+      </div>
+    </form>
+</body>
+</html>

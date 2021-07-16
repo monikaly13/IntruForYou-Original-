@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+</head>
+<link rel="stylesheet" href="../CSS/admin_page.css">
+<script src="../JS/register.js" ></script>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+<body onload="displayProducts(); return false;">
+    <h1 style="font-size: 40px;  color: rgb(43, 43, 168);">Product List</h1>
+    <br>
+    <div  id= "product_list">
+        <table id="product_table">
+
+        </table>
+    </div>
+    <br>
+    <h1 style="font-size: 40px;  color: rgb(43, 43, 168); font-weight: 900;"> Add New Product</h1>
+    <form action="#" onsubmit="addProduct(); return false;" id="add_product">
+        <label for="product_name" style="color: rgb(43, 43, 168); font-weight: 900;">Product Name:</label>
+        <input type="text" name="product_name" required>
+        <label for="description" style="color: rgb(43, 43, 168); font-weight: 900;">Description:</label>
+        <input type="text" name="description" required>
+        <label for="price" style="color: rgb(43, 43, 168); font-weight: 900;">Price $:</label>
+        <input type="number" name="price" required>
+        <label for="img_url" style="color: rgb(43, 43, 168); font-weight: 900;">Image URL:</label>
+        <input type="url" name="img_url" required>
+        <input type="submit" value="Add" style="color: rgb(43, 43, 168); font-weight: 900;">
+    </form>
+</body>
+</html>
